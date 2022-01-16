@@ -1,0 +1,47 @@
+{
+  "mbapp": {
+    "wkbid": "1No_TUD07881YUxgNauY2YPGvXKWLx2eX4tu4MAP05WU",
+    "sheets": {
+      "config": {
+        "data": "config!A2:D",
+        "header": "config!A1:D1"
+      },
+      "profile_id": {
+        "data": "profile_form!A2",
+        "header": "profile_form!A1",
+        "data_types": {
+          "profile_id": "int"
+        }
+      },
+      "profile_metadata": {
+        "data": "profile_form!B2:C2",
+        "header": "profile_form!B1:C1",
+        "data_types": {
+          "asset": "str",
+          "profile_datetime": "date"
+        }
+      },
+      "profile_data": {
+        "data": "profile_form!A5:E",
+        "header": "profile_form!A4:E4",
+        "data_types": {
+          "level_1": "str",
+          "level_2": "str",
+          "level_3": "str",
+          "level_4": "str",
+          "size_mb": "float"
+        }
+      },
+      "profile_records": {
+        "data": "profiles!A2:D",
+        "header": "profiles!A1:D1",
+        "data_types": {
+          "profile_id": "int",
+          "datetime": "date",
+          "asset": "str",
+          "size_mb": "float"
+        }
+      }
+    }
+  }
+}
